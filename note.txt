@@ -1,0 +1,111 @@
+22667 暗影命令
+
+11583 奈法利安
+
+.npc set faction temp 15192
+
+docker cp /d/lua_scripts/ ac-client-data-init:/azerothcore/env/dist/data
+docker cp /d/spell\ editor\ 2/Spell.dbc ac-client-data-init:/azerothcore/env/dist/data/dbc/
+docker cp /d/worldserver.conf ac-worldserver:/azerothcore/env/dist/etc/
+docker cp /d/AutoBalance.conf ac-worldserver:/azerothcore/env/dist/etc/modules
+
+http://www.rexuexia.com/thread-938-1-1.html
+https://www.mangosrumors.org/how-to-run-wow-32-bit-on-mac-os/
+https://www.chromiecraft.com/en/downloads/
+http://nyctermoon.wikidot.com/
+
+19873 摧毁蛋 服务器改cd后 需要把客户端的cd也改了
+23513 红龙精华
+22247 镇压光环
+22682 暗影烈焰
+    SPELL_SHADOWFLAME_INITIAL       = 22992,
+    SPELL_SHADOWFLAME               = 22539,
+22667 暗影命令
+11262 xiaolong
+
+taq
+SPELL_TRUE_FULFILLMENT      = 785,
+
+SPELL_HEAL_BROTHER            = 7393,
+
+SPELL_QUAKE                 = 26093,
+
+351010 大蜘蛛
+351013 小蜘蛛
+
+55876 食尸鬼 瘟疫污染
+
+20475， 20476 活体炸弹
+
+adjustment_auras.sql
+aq_gate.sql
+boss_lord_kazzak.sql
+creature_template_spell.sql
+cs_individualProgression.sql
+dungeon_onyxia.sql
+naxx40.sql
+naxx40_archmage_tarsis.sql
+naxx40_creatures.sql
+naxx40_frozen_runes.sql
+naxx40_omarian.sql
+naxx40_quests.sql
+naxx40_spells.sql
+wotlk_archmage_timear.sql
+wotlk_emblems.sql
+
+351026 小软
+腐液之云 28322
+
+天灾雨雾 变异爆炸 28206
+
+有几个很快的 351021
+
+351073 4 5 血量太少
+
+12846 银色黎明委任徽章
+17670 那个法术
+
+22520 克尔苏加德护符匣
+
+
+北地合剂 47499	
+
+思维放大罗盘 67839	3878	头盔
+硝化甘油推进器 55016	3606	鞋子
+超级加速器 54999	3604	手套
+弹力蛛丝 63765		3859	back
+高弹力衬垫 55002	3605	back
+弹带 54793		3601		腰带
+大师的利斧铭文 61117	3835	肩
+大师的峭壁铭文 61118	3836	肩
+大师的巅峰铭文 61119	3837	肩
+大师的风暴铭文 61120	3838	肩
+附魔戒指-强效法术能量 44636		3840
+附魔戒指-突袭 44645		3839
+附魔戒指-耐力 59636		3791
+毛皮衬垫 – 耐力 57690	3757	手腕
+毛皮衬垫 – 法术强度 57691	3758
+毛皮衬垫-攻击强度 57683		3756
+毛皮衬垫 – 暗影抗性 57696	3761
+毛皮衬垫 – 奥术抗性 57701	3763
+毛皮衬垫 – 冰霜抗性 57694	3760
+毛皮衬垫 – 火焰抗性 57692	3759
+毛皮衬垫 – 自然抗性 57699	3762
+
+冰虫腿甲强化片 60583	3327
+蛛魔腿甲强化片 50904	3328
+
+
+亮纹刺绣 55642	3722	背
+剑刃刺绣 55777	3720	背
+黑光刺绣 55769	3728	背
+大师的魔线 56034	3873	腿
+神圣魔线 56039	3872	腿
+
+插槽手套 55641	3723
+插槽护腕 55628	3717
+永恒腰带扣	41611	55655	3729
+
+3种插槽 是要在附魔6的位置上判断
+
+'Pt3WN3xqqLEubKoBWsqI4Vi7kGIS3RMurqZY_phg'
