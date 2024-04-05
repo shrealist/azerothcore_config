@@ -1,0 +1,4 @@
+/db_sql/mysql
+/db_sql/performance_schema
+/db_sql/sys
+/db_sql/information_schema
