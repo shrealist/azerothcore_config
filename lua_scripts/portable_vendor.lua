@@ -421,6 +421,9 @@ local GOODS={--货物id号
 	[Key(6)]={
 		23162, -- 36格包
 		51809, -- 24格包
+		17966, -- 18
+		41599, -- 20
+		38082, -- 22
 		10683,
         38145, -- 12格包 SELECT entry,BuyPrice FROM item_template WHERE ContainerSlots=12;
 		2515, 2519, -- 猎人的箭和弹药
