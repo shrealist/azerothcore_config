@@ -111,6 +111,7 @@ wotlk_emblems.sql
 物品template的地方 有sock color的字段 初始插槽的意思， 还有bonus的设定 对应位置5
 所以一般在0， 1， 5做fm是保险的
 6位置是商业技能打孔， 应用孔了之后， 会应用在2位置上
+对于本身template有孔的装备， 则可以直接应用宝石在2，3，4位置， 会生效
 
 'Pt3WN3xqqLEubKoBWsqI4Vi7kGIS3RMurqZY_phg'
 
