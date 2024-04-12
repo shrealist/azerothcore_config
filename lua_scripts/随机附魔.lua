@@ -30,10 +30,14 @@ local function OnLoot1(event, player, item, count)
 		local rarityRoll = math.random(100)
 		if (rarityRoll <= 10) then
 			item:SetEnchantment(3717, 6)
-		elseif (rarityRoll <= 30) then
 			local query = WorldDBQuery("SELECT ID FROM item_enchantment_random_1 WHERE field33>0 ORDER BY RAND() LIMIT 1")
             local enchantID = query:GetUInt32(0)
 			item:SetEnchantment(enchantID, 4)
+		elseif (rarityRoll <= 30) then
+			item:SetEnchantment(3717, 6)
+			local query = WorldDBQuery("SELECT ID FROM item_enchantment_random_1 WHERE field33>0 ORDER BY RAND() LIMIT 1")
+            local enchantID = query:GetUInt32(0)
+			item:SetEnchantment(enchantID, 2)
 		end
 	end
 end
