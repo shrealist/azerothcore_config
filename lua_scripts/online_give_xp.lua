@@ -44,12 +44,16 @@ local function OnPlayerLogout(event, player)
 	RemoveEvent(player)
 end
 
+local chars = {Bkk=true, Hyper=true, Heady=true}
+
 local function OnGiveXp(event, player, amount, victim)
-	return amount * 2
+	if chars[player:GetName()]~=nil then
+		return amount * 2
+	end
+	return 0
 end
 
 local function OnLootMoney(event, player, amount)
-	print("OnLootMoney", amount)
 	return amount * 10
 end
 
