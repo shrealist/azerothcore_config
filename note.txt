@@ -5,7 +5,7 @@
 .npc set faction temp 15192
 
 docker cp /d/azerothcore_config/lua_scripts/ ac-client-data-init:/azerothcore/env/dist/data
-docker cp /d/azerothcore_config/spell\ editor\ 2/Spell.dbc ac-client-data-init:/azerothcore/env/dist/data/dbc/
+docker cp /d/spell\ editor\ 2/Spell.dbc ac-client-data-init:/azerothcore/env/dist/data/dbc/
 docker cp /d/azerothcore_config/worldserver.conf ac-worldserver:/azerothcore/env/dist/etc/
 docker cp /d/azerothcore_config/AutoBalance.conf ac-worldserver:/azerothcore/env/dist/etc/modules
 
@@ -118,3 +118,13 @@ wotlk_emblems.sql
 迅猛龙的呼唤
 
 毒药的免疫力 这个任务设计可以看看
+
+
+23766
+23767 有 SPELL_ATTR6_NOT_IN_RAID_INSTANCES 导致副本内就没这个buff了
+23768
+23769
+23735
+23736
+23737
+23738

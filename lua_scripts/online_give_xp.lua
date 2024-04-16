@@ -48,9 +48,9 @@ local chars = {Bkk=true, Hyper=true, Heady=true}
 
 local function OnGiveXp(event, player, amount, victim)
 	if chars[player:GetName()]~=nil then
-		return amount * 2
+		return 0
 	end
-	return 0
+	return amount * 2
 end
 
 local function OnLootMoney(event, player, amount)
