@@ -436,8 +436,16 @@ local Stone={
 		end
 		print("Stone.CastSpell", player:GetName(), spellid)
 		player:SendBroadcastMessage(player:GetName().."已经获得 "..spellid)
-	end
+	end,
 }
+
+local function BuffAll(player, spellids)
+	for k, v in ipairs(spellids) do
+		
+		Stone.CastSpell(player, v)
+	end
+end
+
 
 local Menu={
     [MMENU]={--主菜单
@@ -476,6 +484,8 @@ local Menu={
 		{BUF, "slipkik",         Stone.CastSpell,        GOSSIP_ICON_BATTLE, 22820},
 		{BUF, "zg",         Stone.CastSpell,        GOSSIP_ICON_BATTLE, 24425},
 		{BUF, "serenade",         Stone.CastSpell,        GOSSIP_ICON_BATTLE, 15366},
+		{BUF, "所有buff除了马戏团",         BuffAll,        GOSSIP_ICON_BATTLE, {22888, 16609, 22817, 22818, 22820, 24425, 15366}},
+		{BUF, "所有buff",         BuffAll,        GOSSIP_ICON_BATTLE, {22888, 16609, 22817, 22818, 22820, 24425, 15366, 23767, 23768, 23769, 23766, 23735, 23736, 23737, 23738}},
 	},
 	[TBMENU]={--定点传送
 		{FUNC, "|cFF006400定【1】号点|r"	,		Stone.TBPoint1,	GOSSIP_ICON_TAXI,	false,"是否记录当前|cFFF0F000位置|r ?"},

@@ -128,3 +128,18 @@ wotlk_emblems.sql
 23736
 23737
 23738
+
+
+
+UnitAI.h
+
+DefaultTargetSelector
+中把
+        if (m_playerOnly && (target->GetTypeId() != TYPEID_PLAYER))
+            return false;
+			
+加一下
+            if (!(target->IsNPCBot()))
+				return false;
+
+boss就可以找到npcbot了

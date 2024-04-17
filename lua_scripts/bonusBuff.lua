@@ -61,6 +61,11 @@ end
 
 local function buffPlayers(event, player, command)
     local commandArray = splitString(command)
+	if commandArray[1] == 'zinfo' then
+		local target = player:GetSelection()
+		player:SendBroadcastMessage( tostring(target:GetTypeId())..' '..tostring(target:GetClass()) )
+        return false
+    end
     if commandArray[1] ~= 'bonusbuff' then
         return
     end
