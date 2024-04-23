@@ -328,14 +328,13 @@ function profession_select(event, player, unit, sender, intid)
 
 	-- Herbalism
 	if (intid == 35) then
-		if (profCount(player) < maxprof) then
-			player:CastSpell(player, 50301, true)
-			player:GossipComplete()
-		else
-			unit:SendChatMessageToPlayer("You already have "..maxprof.." professions!", player)
-		end
+		player:CastSpell(player, 50301, true)
+		--player:LearnSpell(28695)
+		
+		player:GossipComplete()
 	end
 	if (intid == 36) then
+		player:RemoveSpell(55503)
 		player:RemoveSpell(50300)
 		player:RemoveSpell(28695)
 		player:RemoveSpell(11993)
@@ -347,12 +346,9 @@ function profession_select(event, player, unit, sender, intid)
 
 	-- Skinning
 	if (intid == 38) then
-		if (profCount(player) < maxprof) then
-			player:CastSpell(player, 50307, true)
-			player:GossipComplete()
-		else
-			unit:SendChatMessageToPlayer("You already have "..maxprof.." professions!", player)
-		end
+		player:CastSpell(player, 50307, true)
+		--player:LearnSpell(32678)
+		player:GossipComplete()
 	end
 	if (intid == 39) then
 		player:RemoveSpell(50305)
@@ -366,12 +362,9 @@ function profession_select(event, player, unit, sender, intid)
 
 	-- Mining
 	if (intid == 41) then
-		if (profCount(player) < maxprof) then
-			player:CastSpell(player, 50309, true)
-			player:GossipComplete()
-		else
-			unit:SendChatMessageToPlayer("You already have "..maxprof.." professions!", player)
-		end
+		player:CastSpell(player, 50309, true)
+		--player:LearnSpell(29354)
+		player:GossipComplete()
 	end
 	if (intid == 42) then
 		player:RemoveSpell(50310)

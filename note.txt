@@ -143,3 +143,5 @@ DefaultTargetSelector
 				return false;
 
 boss就可以找到npcbot了
+
+客户端在 老版 naxx 黑龙 断线后重登录 会挂， 可能是因为设置了英雄难度的问题
