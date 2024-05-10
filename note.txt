@@ -145,3 +145,14 @@ DefaultTargetSelector
 boss就可以找到npcbot了
 
 客户端在 老版 naxx 黑龙 断线后重登录 会挂， 可能是因为设置了英雄难度的问题
+
+电男 电人 28062 28085
+
+
+local E = unpack(ElvUI)
+print(E.Role)
+
+
+30466 30467 30468 虚空龙3种给自己的buff
+虚空龙门前坐标-11208 -1682 288
+塔顶 -10960 -2022 23

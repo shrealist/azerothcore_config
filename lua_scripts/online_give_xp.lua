@@ -44,10 +44,10 @@ local function OnPlayerLogout(event, player)
 	RemoveEvent(player)
 end
 
-local chars = {Bkk=true, Hyper=true, Heady=true}
+local chars = {Bkk=60, Hyper=60, Heady=60, Shadow=60, Lama=70}
 
 local function OnGiveXp(event, player, amount, victim)
-	if chars[player:GetName()]~=nil then
+	if chars[player:GetName()]~=nil and chars[player:GetName()] <= player:GetLevel() then
 		return 0
 	end
 	return amount * 2

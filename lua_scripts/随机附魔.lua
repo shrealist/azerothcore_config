@@ -92,3 +92,4 @@ end
 
 local PLAYER_EVENT_ON_COMMAND = 42          -- (event, player, command) - player is nil if command used from console. Can return false
 RegisterPlayerEvent(PLAYER_EVENT_ON_COMMAND, enchantmentPlayer)
+
