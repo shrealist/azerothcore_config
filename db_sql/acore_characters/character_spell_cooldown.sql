@@ -25,8 +25,13 @@ CREATE TABLE IF NOT EXISTS `character_spell_cooldown` (
   PRIMARY KEY (`guid`,`spell`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_characters.character_spell_cooldown 的数据：~0 rows (大约)
+-- 正在导出表  acore_characters.character_spell_cooldown 的数据：~4 rows (大约)
 DELETE FROM `character_spell_cooldown`;
+INSERT INTO `character_spell_cooldown` (`guid`, `spell`, `category`, `item`, `time`, `needSend`) VALUES
+	(1, 1719, 0, 0, 1714909772, 1),
+	(1, 12292, 0, 0, 1714909690, 1),
+	(1, 28777, 0, 23041, 1714909715, 1),
+	(1, 29602, 0, 23570, 1714909632, 1);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

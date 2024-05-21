@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `reference_loot_template` (
   PRIMARY KEY (`Entry`,`Item`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Loot System';
 
--- 正在导出表  acore_world.reference_loot_template 的数据：~16,292 rows (大约)
+-- 正在导出表  acore_world.reference_loot_template 的数据：~14,984 rows (大约)
 DELETE FROM `reference_loot_template`;
 INSERT INTO `reference_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES
 	(1000, 21929, 0, 16, 0, 1, 1, 1, 2, 'Flame Spessarite'),

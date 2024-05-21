@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS `player_class_stats` (
   PRIMARY KEY (`Class`,`Level`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci PACK_KEYS=0 COMMENT='Stores levels stats.';
 
--- 正在导出表  acore_world.player_class_stats 的数据：~800 rows (大约)
+-- 正在导出表  acore_world.player_class_stats 的数据：~746 rows (大约)
 DELETE FROM `player_class_stats`;
 INSERT INTO `player_class_stats` (`Class`, `Level`, `BaseHP`, `BaseMana`, `Strength`, `Agility`, `Stamina`, `Intellect`, `Spirit`) VALUES
 	(1, 1, 20, 0, 23, 20, 22, 20, 20),

@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `disables` (
   PRIMARY KEY (`sourceType`,`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_world.disables 的数据：~828 rows (大约)
+-- 正在导出表  acore_world.disables 的数据：~906 rows (大约)
 DELETE FROM `disables`;
 INSERT INTO `disables` (`sourceType`, `entry`, `flags`, `params_0`, `params_1`, `comment`) VALUES
 	(0, 128, 8, '', '', 'Spell for deprecated item'),

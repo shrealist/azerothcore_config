@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `quest_offer_reward` (
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_world.quest_offer_reward 的数据：~8,660 rows (大约)
+-- 正在导出表  acore_world.quest_offer_reward 的数据：~8,605 rows (大约)
 DELETE FROM `quest_offer_reward`;
 INSERT INTO `quest_offer_reward` (`ID`, `Emote1`, `Emote2`, `Emote3`, `Emote4`, `EmoteDelay1`, `EmoteDelay2`, `EmoteDelay3`, `EmoteDelay4`, `RewardText`, `VerifiedBuild`) VALUES
 	(2, 0, 0, 0, 0, 0, 0, 0, 0, 'Most impressive, $N... the claw of Sharptalon could not have been easy to get! The Ashenvale Hunt goes well for you!$B$BSharptalon had long terrorized the peons from the lumber camps near its path as they tried to travel here to Splintertree Post. No doubt once the word gets out that it was you who put down the beast, many rousing songs of your bravery will be heard at campfires and lumber mills across Ashenvale!', 12340),

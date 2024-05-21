@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `spell_group` (
   PRIMARY KEY (`id`,`spell_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Spell System';
 
--- 正在导出表  acore_world.spell_group 的数据：~364 rows (大约)
+-- 正在导出表  acore_world.spell_group 的数据：~358 rows (大约)
 DELETE FROM `spell_group`;
 INSERT INTO `spell_group` (`id`, `spell_id`, `special_flag`) VALUES
 	(1, 673, 2),

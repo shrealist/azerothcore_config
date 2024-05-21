@@ -28,11 +28,11 @@ CREATE TABLE IF NOT EXISTS `account_tutorial` (
   PRIMARY KEY (`accountId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Player System';
 
--- 正在导出表  acore_characters.account_tutorial 的数据：~2 rows (大约)
+-- 正在导出表  acore_characters.account_tutorial 的数据：~0 rows (大约)
 DELETE FROM `account_tutorial`;
 INSERT INTO `account_tutorial` (`accountId`, `tut0`, `tut1`, `tut2`, `tut3`, `tut4`, `tut5`, `tut6`, `tut7`) VALUES
-	(1, 4210606071, 134103039, 0, 0, 0, 0, 0, 0),
-	(2, 4194311, 512, 0, 0, 0, 0, 0, 0);
+	(1, 4277714935, 134135807, 0, 0, 0, 0, 0, 0),
+	(2, 4294492151, 133574655, 0, 0, 0, 0, 0, 0);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

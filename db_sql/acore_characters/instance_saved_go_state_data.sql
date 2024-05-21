@@ -22,10 +22,8 @@ CREATE TABLE IF NOT EXISTS `instance_saved_go_state_data` (
   PRIMARY KEY (`id`,`guid`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_characters.instance_saved_go_state_data 的数据：~17 rows (大约)
+-- 正在导出表  acore_characters.instance_saved_go_state_data 的数据：~0 rows (大约)
 DELETE FROM `instance_saved_go_state_data`;
-INSERT INTO `instance_saved_go_state_data` (`id`, `guid`, `state`) VALUES
-	(6, 43192, 0);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

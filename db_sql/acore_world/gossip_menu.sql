@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `gossip_menu` (
   PRIMARY KEY (`MenuID`,`TextID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_world.gossip_menu 的数据：~6,022 rows (大约)
+-- 正在导出表  acore_world.gossip_menu 的数据：~5,985 rows (大约)
 DELETE FROM `gossip_menu`;
 INSERT INTO `gossip_menu` (`MenuID`, `TextID`) VALUES
 	(21, 518),

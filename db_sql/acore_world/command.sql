@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `command` (
   PRIMARY KEY (`name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Chat System';
 
--- 正在导出表  acore_world.command 的数据：~590 rows (大约)
+-- 正在导出表  acore_world.command 的数据：~589 rows (大约)
 DELETE FROM `command`;
 INSERT INTO `command` (`name`, `security`, `help`) VALUES
 	('account', 0, 'Syntax: .account\r\n\r\nDisplay the access level of your account and the email adress if you possess the necessary permissions.'),

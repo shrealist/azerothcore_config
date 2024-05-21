@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `script_waypoint` (
   PRIMARY KEY (`entry`,`pointid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Script Creature waypoints';
 
--- 正在导出表  acore_world.script_waypoint 的数据：~2,363 rows (大约)
+-- 正在导出表  acore_world.script_waypoint 的数据：~2,305 rows (大约)
 DELETE FROM `script_waypoint`;
 INSERT INTO `script_waypoint` (`entry`, `pointid`, `location_x`, `location_y`, `location_z`, `waittime`, `point_comment`) VALUES
 	(349, 1, -8763.9, -2185.21, 141.217, 0, ''),

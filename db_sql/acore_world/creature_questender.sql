@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `creature_questender` (
   PRIMARY KEY (`id`,`quest`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Creature System';
 
--- 正在导出表  acore_world.creature_questender 的数据：~8,020 rows (大约)
+-- 正在导出表  acore_world.creature_questender 的数据：~7,899 rows (大约)
 DELETE FROM `creature_questender`;
 INSERT INTO `creature_questender` (`id`, `quest`) VALUES
 	(196, 33),

@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `quest_poi_points` (
   KEY `questId_id` (`QuestID`,`Idx1`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_world.quest_poi_points 的数据：~57,166 rows (大约)
+-- 正在导出表  acore_world.quest_poi_points 的数据：~57,236 rows (大约)
 DELETE FROM `quest_poi_points`;
 INSERT INTO `quest_poi_points` (`QuestID`, `Idx1`, `Idx2`, `X`, `Y`, `VerifiedBuild`) VALUES
 	(1, 0, 0, 2148, -5252, 0),

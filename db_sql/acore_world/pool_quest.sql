@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `pool_quest` (
   KEY `idx_guid` (`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_world.pool_quest 的数据：~175 rows (大约)
+-- 正在导出表  acore_world.pool_quest 的数据：~162 rows (大约)
 DELETE FROM `pool_quest`;
 INSERT INTO `pool_quest` (`entry`, `pool_entry`, `description`) VALUES
 	(236, 385, 'Fueling the Demolishers'),

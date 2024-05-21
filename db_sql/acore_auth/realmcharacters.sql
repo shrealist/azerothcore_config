@@ -23,11 +23,11 @@ CREATE TABLE IF NOT EXISTS `realmcharacters` (
   KEY `acctid` (`acctid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Realm Character Tracker';
 
--- 正在导出表  acore_auth.realmcharacters 的数据：~3 rows (大约)
+-- 正在导出表  acore_auth.realmcharacters 的数据：~0 rows (大约)
 DELETE FROM `realmcharacters`;
 INSERT INTO `realmcharacters` (`realmid`, `acctid`, `numchars`) VALUES
-	(1, 1, 5),
-	(1, 2, 1),
+	(1, 1, 7),
+	(1, 2, 3),
 	(1, 3, 1);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;

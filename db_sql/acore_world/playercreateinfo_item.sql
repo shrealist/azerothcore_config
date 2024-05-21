@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `playercreateinfo_item` (
   KEY `playercreateinfo_race_class_index` (`race`,`class`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_world.playercreateinfo_item 的数据：~1 rows (大约)
+-- 正在导出表  acore_world.playercreateinfo_item 的数据：~0 rows (大约)
 DELETE FROM `playercreateinfo_item`;
 INSERT INTO `playercreateinfo_item` (`race`, `class`, `itemid`, `amount`, `Note`) VALUES
 	(0, 6, 40582, -1, '[TDB PH] - unsused Scourgestone');

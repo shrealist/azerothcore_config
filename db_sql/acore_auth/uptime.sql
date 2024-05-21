@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `uptime` (
   PRIMARY KEY (`realmid`,`starttime`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Uptime system';
 
--- 正在导出表  acore_auth.uptime 的数据：~137 rows (大约)
+-- 正在导出表  acore_auth.uptime 的数据：~174 rows (大约)
 DELETE FROM `uptime`;
 INSERT INTO `uptime` (`realmid`, `starttime`, `uptime`, `maxplayers`, `revision`) VALUES
 	(1, 1550400304, 121, 0, 'AzerothCore rev. 2bcedc2859e7 2019-02-17 10:04:09 +0100 (master branch) (Unix, Debug)'),
@@ -173,7 +173,36 @@ INSERT INTO `uptime` (`realmid`, `starttime`, `uptime`, `maxplayers`, `revision`
 	(1, 1712311919, 250, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
 	(1, 1712312225, 191, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
 	(1, 1712312452, 251, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
-	(1, 1712312748, 1870, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)');
+	(1, 1712312748, 35770, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1712348578, 49813, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1712398440, 7813, 1, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1712410420, 330972, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1712741701, 368773, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1713110498, 97270, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1713207783, 42371, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1713250208, 8952, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1713259191, 39610, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1713298828, 611, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1713299446, 61631, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1713364985, 453733, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1713818774, 57856, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1713876682, 0, 0, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1713876702, 231430, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1714108196, 316, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1714108542, 110051, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1714218640, 118812, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1714337511, 405911, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1714743442, 541752, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1715285252, 1157, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1715286419, 253, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1715286681, 253, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1715286946, 58572, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1715345553, 433, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1715345998, 77953, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1715423982, 298271, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1715722314, 43693, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1715768903, 83234, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1715853602, 468793, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

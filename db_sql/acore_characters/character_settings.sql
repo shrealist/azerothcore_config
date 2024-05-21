@@ -22,14 +22,18 @@ CREATE TABLE IF NOT EXISTS `character_settings` (
   PRIMARY KEY (`guid`,`source`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Player Settings';
 
--- 正在导出表  acore_characters.character_settings 的数据：~5 rows (大约)
+-- 正在导出表  acore_characters.character_settings 的数据：~9 rows (大约)
 DELETE FROM `character_settings`;
 INSERT INTO `character_settings` (`guid`, `source`, `data`) VALUES
 	(1, 'mod-individual-progression', '6 '),
 	(2, 'mod-individual-progression', '0 '),
 	(3, 'mod-individual-progression', '0 '),
-	(6, 'mod-individual-progression', '5 '),
-	(7, 'mod-individual-progression', '0 ');
+	(6, 'mod-individual-progression', '6 '),
+	(7, 'mod-individual-progression', '5 '),
+	(8, 'mod-individual-progression', '0 '),
+	(9, 'mod-individual-progression', '6 '),
+	(10, 'mod-individual-progression', '0 '),
+	(11, 'mod-individual-progression', '0 ');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

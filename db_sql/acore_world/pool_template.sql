@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `pool_template` (
   PRIMARY KEY (`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_world.pool_template 的数据：~5,107 rows (大约)
+-- 正在导出表  acore_world.pool_template 的数据：~5,079 rows (大约)
 DELETE FROM `pool_template`;
 INSERT INTO `pool_template` (`entry`, `max_limit`, `description`) VALUES
 	(1, 1, ''),

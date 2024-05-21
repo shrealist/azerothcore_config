@@ -55,7 +55,7 @@ CREATE TABLE IF NOT EXISTS `gameobject_template` (
   KEY `idx_name` (`name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Gameobject System';
 
--- 正在导出表  acore_world.gameobject_template 的数据：~21,582 rows (大约)
+-- 正在导出表  acore_world.gameobject_template 的数据：~21,325 rows (大约)
 DELETE FROM `gameobject_template`;
 INSERT INTO `gameobject_template` (`entry`, `type`, `displayId`, `name`, `IconName`, `castBarCaption`, `unk1`, `size`, `Data0`, `Data1`, `Data2`, `Data3`, `Data4`, `Data5`, `Data6`, `Data7`, `Data8`, `Data9`, `Data10`, `Data11`, `Data12`, `Data13`, `Data14`, `Data15`, `Data16`, `Data17`, `Data18`, `Data19`, `Data20`, `Data21`, `Data22`, `Data23`, `AIName`, `ScriptName`, `VerifiedBuild`) VALUES
 	(4, 6, 0, 'Bonfire Damage', '', '', '', 1, 0, 1, 3, 7902, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', '', 0),

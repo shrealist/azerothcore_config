@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `item_enchantment_template` (
   CONSTRAINT `item_enchantment_template_chk_1` CHECK ((`chance` >= 0))
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Item Random Enchantment System';
 
--- 正在导出表  acore_world.item_enchantment_template 的数据：~28,594 rows (大约)
+-- 正在导出表  acore_world.item_enchantment_template 的数据：~28,159 rows (大约)
 DELETE FROM `item_enchantment_template`;
 INSERT INTO `item_enchantment_template` (`entry`, `ench`, `chance`) VALUES
 	(61, 6, 7.73),

@@ -28,8 +28,11 @@ CREATE TABLE IF NOT EXISTS `log_money` (
   `type` tinyint NOT NULL COMMENT '1=COD,2=AH,3=GB DEPOSIT,4=GB WITHDRAW,5=MAIL,6=TRADE'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_characters.log_money 的数据：~0 rows (大约)
+-- 正在导出表  acore_characters.log_money 的数据：~2 rows (大约)
 DELETE FROM `log_money`;
+INSERT INTO `log_money` (`sender_acc`, `sender_guid`, `sender_name`, `sender_ip`, `receiver_acc`, `receiver_name`, `money`, `topic`, `date`, `type`) VALUES
+	(1, 9, 'Shadow', '172.18.0.1', 3, 'Ahbot', 9849042, 'profit: 943g, bidder: Shadow 60 lvl (guid: 9), seller: Ahbot 1 lvl (guid: 5), item 19019 (1)', '2024-04-25 21:21:16', 2),
+	(2, 10, 'Lama', '172.18.0.1', 3, 'Ahbot', 13495511, 'profit: 1297g, bidder: Lama 65 lvl (guid: 10), seller: Ahbot 1 lvl (guid: 5), item 19019 (1)', '2024-05-06 20:45:07', 2);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

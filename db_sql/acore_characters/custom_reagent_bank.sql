@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `custom_reagent_bank` (
   PRIMARY KEY (`character_id`,`item_entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
--- 正在导出表  acore_characters.custom_reagent_bank 的数据：~14 rows (大约)
+-- 正在导出表  acore_characters.custom_reagent_bank 的数据：~16 rows (大约)
 DELETE FROM `custom_reagent_bank`;
 INSERT INTO `custom_reagent_bank` (`character_id`, `item_entry`, `item_subclass`, `amount`) VALUES
 	(1, 3857, 7, 11),

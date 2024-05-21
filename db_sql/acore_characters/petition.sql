@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `petition` (
   UNIQUE KEY `index_ownerguid_petitionguid` (`ownerguid`,`petitionguid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Guild System';
 
--- 正在导出表  acore_characters.petition 的数据：~1 rows (大约)
+-- 正在导出表  acore_characters.petition 的数据：~0 rows (大约)
 DELETE FROM `petition`;
 INSERT INTO `petition` (`ownerguid`, `petitionguid`, `name`, `type`) VALUES
 	(1, 34596, 'chrome', 9);

@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `spell_script_names` (
   UNIQUE KEY `spell_id` (`spell_id`,`ScriptName`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_world.spell_script_names 的数据：~2,166 rows (大约)
+-- 正在导出表  acore_world.spell_script_names 的数据：~2,163 rows (大约)
 DELETE FROM `spell_script_names`;
 INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES
 	(-62900, 'spell_dk_death_coil'),

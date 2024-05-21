@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `transports` (
   UNIQUE KEY `idx_entry` (`entry`)
 ) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Transports';
 
--- 正在导出表  acore_world.transports 的数据：~21 rows (大约)
+-- 正在导出表  acore_world.transports 的数据：~20 rows (大约)
 DELETE FROM `transports`;
 INSERT INTO `transports` (`guid`, `entry`, `name`, `ScriptName`) VALUES
 	(1, 176495, 'Grom\'gol Base Camp, Stranglethorn Vale and Undercity, Tirisfal Glades (Zeppelin, Horde ("The Purple Princess"))', ''),

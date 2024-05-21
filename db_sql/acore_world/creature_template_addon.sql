@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `creature_template_addon` (
   PRIMARY KEY (`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_world.creature_template_addon 的数据：~11,933 rows (大约)
+-- 正在导出表  acore_world.creature_template_addon 的数据：~11,967 rows (大约)
 DELETE FROM `creature_template_addon`;
 INSERT INTO `creature_template_addon` (`entry`, `path_id`, `mount`, `bytes1`, `bytes2`, `emote`, `visibilityDistanceType`, `auras`) VALUES
 	(3, 0, 0, 0, 1, 0, 0, ''),

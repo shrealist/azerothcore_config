@@ -24,40 +24,12 @@ CREATE TABLE IF NOT EXISTS `mail_items` (
   KEY `idx_mail_id` (`mail_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_characters.mail_items 的数据：~31 rows (大约)
+-- 正在导出表  acore_characters.mail_items 的数据：~3 rows (大约)
 DELETE FROM `mail_items`;
 INSERT INTO `mail_items` (`mail_id`, `item_guid`, `receiver`) VALUES
-	(9, 11382, 6),
-	(9, 11384, 6),
-	(9, 11386, 6),
-	(9, 11388, 6),
-	(9, 11390, 6),
-	(9, 11392, 6),
-	(9, 11394, 6),
-	(9, 11396, 6),
-	(9, 11398, 6),
-	(9, 11400, 6),
-	(9, 11402, 6),
-	(9, 11412, 6),
-	(16, 35073, 1),
-	(22, 42923, 1),
-	(23, 42924, 1),
-	(21, 42928, 1),
-	(24, 42929, 1),
-	(25, 42931, 1),
-	(26, 42934, 1),
-	(27, 42946, 1),
-	(28, 42977, 1),
-	(29, 42980, 1),
-	(30, 42986, 1),
-	(32, 42990, 1),
-	(31, 42991, 1),
-	(33, 43005, 1),
-	(34, 43012, 1),
-	(35, 43079, 1),
-	(15, 43766, 6),
-	(39, 56892, 1),
-	(40, 64842, 7);
+	(54, 118934, 9),
+	(55, 119336, 9),
+	(61, 151806, 11);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

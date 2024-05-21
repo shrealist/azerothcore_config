@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `creature_equip_template` (
   PRIMARY KEY (`CreatureID`,`ID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_world.creature_equip_template 的数据：~11,197 rows (大约)
+-- 正在导出表  acore_world.creature_equip_template 的数据：~10,849 rows (大约)
 DELETE FROM `creature_equip_template`;
 INSERT INTO `creature_equip_template` (`CreatureID`, `ID`, `ItemID1`, `ItemID2`, `ItemID3`, `VerifiedBuild`) VALUES
 	(6, 1, 5276, 0, 0, 18019),

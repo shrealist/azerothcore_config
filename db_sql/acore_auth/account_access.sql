@@ -23,10 +23,11 @@ CREATE TABLE IF NOT EXISTS `account_access` (
   PRIMARY KEY (`id`,`RealmID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_auth.account_access 的数据：~1 rows (大约)
+-- 正在导出表  acore_auth.account_access 的数据：~0 rows (大约)
 DELETE FROM `account_access`;
 INSERT INTO `account_access` (`id`, `gmlevel`, `RealmID`, `comment`) VALUES
-	(1, 3, -1, '');
+	(1, 3, -1, ''),
+	(2, 3, -1, '');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

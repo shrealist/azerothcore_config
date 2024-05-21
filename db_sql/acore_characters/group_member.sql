@@ -24,11 +24,15 @@ CREATE TABLE IF NOT EXISTS `group_member` (
   PRIMARY KEY (`memberGuid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Groups';
 
--- 正在导出表  acore_characters.group_member 的数据：~2 rows (大约)
+-- 正在导出表  acore_characters.group_member 的数据：~6 rows (大约)
 DELETE FROM `group_member`;
 INSERT INTO `group_member` (`guid`, `memberGuid`, `memberFlags`, `subgroup`, `roles`) VALUES
 	(1, 1, 0, 0, 0),
-	(2, 6, 0, 0, 0);
+	(4, 6, 2, 0, 0),
+	(5, 7, 2, 0, 0),
+	(2, 9, 0, 0, 0),
+	(9, 10, 0, 0, 0),
+	(3, 11, 0, 0, 0);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

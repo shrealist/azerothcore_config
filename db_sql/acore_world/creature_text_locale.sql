@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `creature_text_locale` (
   PRIMARY KEY (`CreatureID`,`GroupID`,`ID`,`Locale`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_world.creature_text_locale 的数据：~14,690 rows (大约)
+-- 正在导出表  acore_world.creature_text_locale 的数据：~14,228 rows (大约)
 DELETE FROM `creature_text_locale`;
 INSERT INTO `creature_text_locale` (`CreatureID`, `GroupID`, `ID`, `Locale`, `Text`) VALUES
 	(6, 0, 0, 'zhCN', '不许抢走我的蜡烛！'),

@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `realmlist` (
   CONSTRAINT `realmlist_chk_1` CHECK ((`population` >= 0))
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Realm System';
 
--- 正在导出表  acore_auth.realmlist 的数据：~1 rows (大约)
+-- 正在导出表  acore_auth.realmlist 的数据：~0 rows (大约)
 DELETE FROM `realmlist`;
 INSERT INTO `realmlist` (`id`, `name`, `address`, `localAddress`, `localSubnetMask`, `port`, `icon`, `flag`, `timezone`, `allowedSecurityLevel`, `population`, `gamebuild`) VALUES
 	(1, 'AzerothCore', '192.168.10.42', '127.0.0.1', '255.255.255.0', 8085, 0, 0, 1, 0, 0, 12340);

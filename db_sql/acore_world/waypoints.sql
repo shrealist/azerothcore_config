@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `waypoints` (
   PRIMARY KEY (`entry`,`pointid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Creature waypoints';
 
--- 正在导出表  acore_world.waypoints 的数据：~14,072 rows (大约)
+-- 正在导出表  acore_world.waypoints 的数据：~13,857 rows (大约)
 DELETE FROM `waypoints`;
 INSERT INTO `waypoints` (`entry`, `pointid`, `position_x`, `position_y`, `position_z`, `orientation`, `delay`, `point_comment`) VALUES
 	(225, 1, -10616.7, -1150.73, 28.0361, NULL, 0, 'Gavin Gnarltree'),

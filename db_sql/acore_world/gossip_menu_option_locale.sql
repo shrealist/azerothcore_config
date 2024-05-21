@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `gossip_menu_option_locale` (
   PRIMARY KEY (`MenuID`,`OptionID`,`Locale`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_world.gossip_menu_option_locale 的数据：~35,241 rows (大约)
+-- 正在导出表  acore_world.gossip_menu_option_locale 的数据：~37,040 rows (大约)
 DELETE FROM `gossip_menu_option_locale`;
 INSERT INTO `gossip_menu_option_locale` (`MenuID`, `OptionID`, `Locale`, `OptionText`, `BoxText`) VALUES
 	(0, 0, 'deDE', 'GOSSIP_OPTION_QUESTGIVER', ''),

@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `dungeon_access_template` (
   KEY `FK_dungeon_access_template__instance_template` (`map_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=124 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Dungeon/raid access template and single requirements';
 
--- 正在导出表  acore_world.dungeon_access_template 的数据：~123 rows (大约)
+-- 正在导出表  acore_world.dungeon_access_template 的数据：~121 rows (大约)
 DELETE FROM `dungeon_access_template`;
 INSERT INTO `dungeon_access_template` (`id`, `map_id`, `difficulty`, `min_level`, `max_level`, `min_avg_item_level`, `comment`) VALUES
 	(1, 33, 0, 14, 0, 0, 'Shadowfang Keep'),

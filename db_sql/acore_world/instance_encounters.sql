@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `instance_encounters` (
   PRIMARY KEY (`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_world.instance_encounters 的数据：~613 rows (大约)
+-- 正在导出表  acore_world.instance_encounters 的数据：~612 rows (大约)
 DELETE FROM `instance_encounters`;
 INSERT INTO `instance_encounters` (`entry`, `creditType`, `creditEntry`, `lastEncounterDungeon`, `comment`) VALUES
 	(161, 0, 644, 0, 'Rhahk\'zor'),

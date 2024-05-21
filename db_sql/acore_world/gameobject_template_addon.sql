@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS `gameobject_template_addon` (
   PRIMARY KEY (`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_world.gameobject_template_addon 的数据：~21,493 rows (大约)
+-- 正在导出表  acore_world.gameobject_template_addon 的数据：~21,255 rows (大约)
 DELETE FROM `gameobject_template_addon`;
 INSERT INTO `gameobject_template_addon` (`entry`, `faction`, `flags`, `mingold`, `maxgold`, `artkit0`, `artkit1`, `artkit2`, `artkit3`) VALUES
 	(31, 84, 4, 0, 0, 0, 0, 0, 0),

@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `gameobject_loot_template` (
   PRIMARY KEY (`Entry`,`Item`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Loot System';
 
--- 正在导出表  acore_world.gameobject_loot_template 的数据：~17,990 rows (大约)
+-- 正在导出表  acore_world.gameobject_loot_template 的数据：~17,865 rows (大约)
 DELETE FROM `gameobject_loot_template`;
 INSERT INTO `gameobject_loot_template` (`Entry`, `Item`, `Reference`, `Chance`, `QuestRequired`, `LootMode`, `GroupId`, `MinCount`, `MaxCount`, `Comment`) VALUES
 	(167, 1349, 0, 100, 1, 1, 0, 1, 1, 'Abercrombie\'s Crate - Abercrombie\'s Crate'),

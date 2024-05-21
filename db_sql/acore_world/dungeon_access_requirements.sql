@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `dungeon_access_requirements` (
   PRIMARY KEY (`dungeon_access_id`,`requirement_type`,`requirement_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Add (multiple) requirements before being able to enter a dungeon/raid';
 
--- 正在导出表  acore_world.dungeon_access_requirements 的数据：~36 rows (大约)
+-- 正在导出表  acore_world.dungeon_access_requirements 的数据：~35 rows (大约)
 DELETE FROM `dungeon_access_requirements`;
 INSERT INTO `dungeon_access_requirements` (`dungeon_access_id`, `requirement_type`, `requirement_id`, `requirement_note`, `faction`, `priority`, `leader_only`, `comment`) VALUES
 	(17, 1, 10285, 'You must complete the quest "Return to Andormu" before entering the Black Morass.', 2, NULL, 0, 'Caverns of Time: Opening the Dark Portal (Normal)'),

@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `creature_template_spell` (
   CONSTRAINT `creature_template_spell_chk_1` CHECK (((`Index` >= 0) and (`Index` <= 7)))
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_world.creature_template_spell 的数据：~9,554 rows (大约)
+-- 正在导出表  acore_world.creature_template_spell 的数据：~9,552 rows (大约)
 DELETE FROM `creature_template_spell`;
 INSERT INTO `creature_template_spell` (`CreatureID`, `Index`, `Spell`, `VerifiedBuild`) VALUES
 	(30, 0, 744, 12340),

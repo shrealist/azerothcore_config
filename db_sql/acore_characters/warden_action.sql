@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `warden_action` (
   PRIMARY KEY (`wardenId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_characters.warden_action 的数据：~1 rows (大约)
+-- 正在导出表  acore_characters.warden_action 的数据：~0 rows (大约)
 DELETE FROM `warden_action`;
 INSERT INTO `warden_action` (`wardenId`, `action`) VALUES
 	(437, 0);

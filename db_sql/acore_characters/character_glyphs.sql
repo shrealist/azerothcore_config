@@ -27,14 +27,19 @@ CREATE TABLE IF NOT EXISTS `character_glyphs` (
   PRIMARY KEY (`guid`,`talentGroup`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_characters.character_glyphs 的数据：~5 rows (大约)
+-- 正在导出表  acore_characters.character_glyphs 的数据：~10 rows (大约)
 DELETE FROM `character_glyphs`;
 INSERT INTO `character_glyphs` (`guid`, `talentGroup`, `glyph1`, `glyph2`, `glyph3`, `glyph4`, `glyph5`, `glyph6`) VALUES
 	(1, 0, 492, 483, 0, 509, 0, 0),
 	(1, 1, 0, 0, 0, 0, 0, 0),
 	(6, 0, 520, 522, 553, 771, 0, 0),
 	(6, 1, 773, 555, 553, 525, 0, 0),
-	(7, 0, 316, 0, 0, 0, 0, 0);
+	(7, 0, 316, 451, 0, 697, 0, 0),
+	(7, 1, 319, 451, 0, 331, 0, 0),
+	(9, 0, 409, 468, 0, 410, 0, 0),
+	(10, 0, 496, 488, 483, 509, 0, 0),
+	(10, 1, 501, 487, 483, 502, 851, 0),
+	(11, 0, 183, 0, 0, 193, 0, 0);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

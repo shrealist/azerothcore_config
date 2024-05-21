@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `creature_template_npcbot_extras` (
   PRIMARY KEY (`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
--- 正在导出表  acore_world.creature_template_npcbot_extras 的数据：~368 rows (大约)
+-- 正在导出表  acore_world.creature_template_npcbot_extras 的数据：~359 rows (大约)
 DELETE FROM `creature_template_npcbot_extras`;
 INSERT INTO `creature_template_npcbot_extras` (`entry`, `class`, `race`) VALUES
 	(70001, 1, 1),

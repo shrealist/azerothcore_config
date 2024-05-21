@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `creature_template_resistance` (
   CONSTRAINT `creature_template_resistance_chk_1` CHECK (((`School` >= 1) and (`School` <= 6)))
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_world.creature_template_resistance 的数据：~2,574 rows (大约)
+-- 正在导出表  acore_world.creature_template_resistance 的数据：~2,456 rows (大约)
 DELETE FROM `creature_template_resistance`;
 INSERT INTO `creature_template_resistance` (`CreatureID`, `School`, `Resistance`, `VerifiedBuild`) VALUES
 	(40, 2, 21, 12340),

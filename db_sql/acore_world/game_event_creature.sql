@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `game_event_creature` (
   PRIMARY KEY (`guid`,`eventEntry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_world.game_event_creature 的数据：~9,803 rows (大约)
+-- 正在导出表  acore_world.game_event_creature 的数据：~9,748 rows (大约)
 DELETE FROM `game_event_creature`;
 INSERT INTO `game_event_creature` (`eventEntry`, `guid`) VALUES
 	(2, 24),

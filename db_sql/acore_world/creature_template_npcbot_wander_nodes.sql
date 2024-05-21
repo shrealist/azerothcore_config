@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `creature_template_npcbot_wander_nodes` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Bot Wander Map';
 
--- 正在导出表  acore_world.creature_template_npcbot_wander_nodes 的数据：~5,039 rows (大约)
+-- 正在导出表  acore_world.creature_template_npcbot_wander_nodes 的数据：~4,866 rows (大约)
 DELETE FROM `creature_template_npcbot_wander_nodes`;
 INSERT INTO `creature_template_npcbot_wander_nodes` (`id`, `name`, `mapid`, `zoneid`, `areaid`, `minlevel`, `maxlevel`, `flags`, `x`, `y`, `z`, `o`, `links`) VALUES
 	(1, 'Anvilmar', 0, 1, 132, 1, 5, 2, -6077.84, 384.826, 393.598, 4.63263, '542:0 '),

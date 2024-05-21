@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `spell_linked_spell` (
   UNIQUE KEY `trigger_effect_type` (`spell_trigger`,`spell_effect`,`type`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Spell System';
 
--- 正在导出表  acore_world.spell_linked_spell 的数据：~580 rows (大约)
+-- 正在导出表  acore_world.spell_linked_spell 的数据：~579 rows (大约)
 DELETE FROM `spell_linked_spell`;
 INSERT INTO `spell_linked_spell` (`spell_trigger`, `spell_effect`, `type`, `comment`) VALUES
 	(-75731, -75055, 0, 'Instant Statue'),

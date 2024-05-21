@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS `item_set_names_locale` (
   PRIMARY KEY (`ID`,`locale`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_world.item_set_names_locale 的数据：~14,850 rows (大约)
+-- 正在导出表  acore_world.item_set_names_locale 的数据：~14,417 rows (大约)
 DELETE FROM `item_set_names_locale`;
 INSERT INTO `item_set_names_locale` (`ID`, `locale`, `Name`, `VerifiedBuild`) VALUES
 	(6473, 'deDE', 'Rüstung des Giftzahns', 15050),

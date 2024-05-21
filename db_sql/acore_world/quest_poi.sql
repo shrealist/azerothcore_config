@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS `quest_poi` (
   KEY `idx` (`QuestID`,`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_world.quest_poi 的数据：~18,771 rows (大约)
+-- 正在导出表  acore_world.quest_poi 的数据：~19,110 rows (大约)
 DELETE FROM `quest_poi`;
 INSERT INTO `quest_poi` (`QuestID`, `id`, `ObjectiveIndex`, `MapID`, `WorldMapAreaId`, `Floor`, `Priority`, `Flags`, `VerifiedBuild`) VALUES
 	(1, 0, -1, 0, 23, 0, 0, 1, 0),

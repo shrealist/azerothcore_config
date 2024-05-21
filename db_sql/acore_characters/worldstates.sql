@@ -157,18 +157,18 @@ INSERT INTO `worldstates` (`entry`, `value`, `comment`) VALUES
 	(3771, 4, NULL),
 	(3772, 4, NULL),
 	(3773, 4, NULL),
-	(3781, 31003, NULL),
-	(3801, 0, NULL),
+	(3781, 754465, NULL),
+	(3801, 1, NULL),
 	(3802, 1, NULL),
-	(4024, 265, NULL),
+	(4024, 634, NULL),
 	(20001, 1454691600, 'NextArenaPointDistributionTime'),
-	(20002, 1712815200, 'NextWeeklyQuestResetTime'),
-	(20003, 1712383200, 'NextBGRandomDailyResetTime'),
+	(20002, 1716444000, 'NextWeeklyQuestResetTime'),
+	(20003, 1716357600, 'NextBGRandomDailyResetTime'),
 	(20004, 0, 'cleaning_flags'),
-	(20005, 1712383200, 'NextDailyQuestResetTime'),
-	(20006, 1712383200, 'NextGuildDailyResetTime'),
-	(20007, 1714543200, 'NextMonthlyQuestResetTime'),
-	(20008, 1712383200, NULL);
+	(20005, 1716357600, 'NextDailyQuestResetTime'),
+	(20006, 1716357600, 'NextGuildDailyResetTime'),
+	(20007, 1717221600, 'NextMonthlyQuestResetTime'),
+	(20008, 1716357600, NULL);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

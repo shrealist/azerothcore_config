@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `character_social` (
   KEY `friend` (`friend`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Player System';
 
--- 正在导出表  acore_characters.character_social 的数据：~1 rows (大约)
+-- 正在导出表  acore_characters.character_social 的数据：~0 rows (大约)
 DELETE FROM `character_social`;
 INSERT INTO `character_social` (`guid`, `friend`, `flags`, `note`) VALUES
 	(2, 1, 1, '');

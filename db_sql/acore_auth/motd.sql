@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `motd` (
   PRIMARY KEY (`realmid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_auth.motd 的数据：~1 rows (大约)
+-- 正在导出表  acore_auth.motd 的数据：~0 rows (大约)
 DELETE FROM `motd`;
 INSERT INTO `motd` (`realmid`, `text`) VALUES
 	(-1, 'Welcome to an AzerothCore server.');

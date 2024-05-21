@@ -23,8 +23,20 @@ CREATE TABLE IF NOT EXISTS `item_refund_instance` (
   PRIMARY KEY (`item_guid`,`player_guid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Item Refund System';
 
--- 正在导出表  acore_characters.item_refund_instance 的数据：~0 rows (大约)
+-- 正在导出表  acore_characters.item_refund_instance 的数据：~11 rows (大约)
 DELETE FROM `item_refund_instance`;
+INSERT INTO `item_refund_instance` (`item_guid`, `player_guid`, `paidMoney`, `paidExtendedCost`) VALUES
+	(145475, 10, 0, 1239),
+	(145476, 10, 0, 1203),
+	(147801, 10, 0, 1235),
+	(147802, 10, 0, 1235),
+	(147803, 10, 0, 1235),
+	(147832, 10, 0, 1243),
+	(147833, 10, 0, 1243),
+	(147834, 10, 0, 1241),
+	(147835, 10, 0, 1218),
+	(147836, 10, 0, 1219),
+	(147837, 10, 0, 1209);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

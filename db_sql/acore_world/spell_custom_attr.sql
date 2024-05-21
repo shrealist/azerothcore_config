@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `spell_custom_attr` (
   PRIMARY KEY (`spell_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='SpellInfo custom attributes';
 
--- 正在导出表  acore_world.spell_custom_attr 的数据：~293 rows (大约)
+-- 正在导出表  acore_world.spell_custom_attr 的数据：~292 rows (大约)
 DELETE FROM `spell_custom_attr`;
 INSERT INTO `spell_custom_attr` (`spell_id`, `attributes`) VALUES
 	(53, 131072),
