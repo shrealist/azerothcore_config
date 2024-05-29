@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS `character_glyphs` (
   PRIMARY KEY (`guid`,`talentGroup`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_characters.character_glyphs 的数据：~10 rows (大约)
+-- 正在导出表  acore_characters.character_glyphs 的数据：~9 rows (大约)
 DELETE FROM `character_glyphs`;
 INSERT INTO `character_glyphs` (`guid`, `talentGroup`, `glyph1`, `glyph2`, `glyph3`, `glyph4`, `glyph5`, `glyph6`) VALUES
 	(1, 0, 492, 483, 0, 509, 0, 0),

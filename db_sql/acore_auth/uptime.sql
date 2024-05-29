@@ -202,7 +202,14 @@ INSERT INTO `uptime` (`realmid`, `starttime`, `uptime`, `maxplayers`, `revision`
 	(1, 1715423982, 298271, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
 	(1, 1715722314, 43693, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
 	(1, 1715768903, 83234, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
-	(1, 1715853602, 468793, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)');
+	(1, 1715853602, 528852, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1716382477, 73, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1716382579, 132, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1716382720, 71, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1716382811, 505511, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1716888357, 436, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1716888864, 57134, 2, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)'),
+	(1, 1716983034, 196, 1, 'AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

@@ -22,10 +22,8 @@ CREATE TABLE IF NOT EXISTS `lfg_data` (
   PRIMARY KEY (`guid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='LFG Data';
 
--- 正在导出表  acore_characters.lfg_data 的数据：~2 rows (大约)
+-- 正在导出表  acore_characters.lfg_data 的数据：~0 rows (大约)
 DELETE FROM `lfg_data`;
-INSERT INTO `lfg_data` (`guid`, `dungeon`, `state`) VALUES
-	(3, 164, 6);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

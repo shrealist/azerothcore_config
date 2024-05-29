@@ -27,7 +27,8 @@ CREATE TABLE IF NOT EXISTS `account_access` (
 DELETE FROM `account_access`;
 INSERT INTO `account_access` (`id`, `gmlevel`, `RealmID`, `comment`) VALUES
 	(1, 3, -1, ''),
-	(2, 3, -1, '');
+	(2, 3, -1, ''),
+	(4, 3, -1, '');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

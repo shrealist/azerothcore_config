@@ -24,8 +24,14 @@ CREATE TABLE IF NOT EXISTS `gameobject_respawn` (
   KEY `idx_instance` (`instanceId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Grid Loading System';
 
--- 正在导出表  acore_characters.gameobject_respawn 的数据：~0 rows (大约)
+-- 正在导出表  acore_characters.gameobject_respawn 的数据：~4 rows (大约)
 DELETE FROM `gameobject_respawn`;
+INSERT INTO `gameobject_respawn` (`guid`, `respawnTime`, `mapId`, `instanceId`) VALUES
+	(23803, 1716772457, 555, 2),
+	(23804, 1716772456, 555, 2),
+	(23805, 1716772525, 555, 2),
+	(23806, 1716772523, 555, 2),
+	(23811, 1716772714, 555, 2);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

@@ -32,7 +32,7 @@ INSERT INTO `group_member` (`guid`, `memberGuid`, `memberFlags`, `subgroup`, `ro
 	(5, 7, 2, 0, 0),
 	(2, 9, 0, 0, 0),
 	(9, 10, 0, 0, 0),
-	(3, 11, 0, 0, 0);
+	(6, 11, 0, 0, 0);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

@@ -32,7 +32,8 @@ CREATE TABLE IF NOT EXISTS `log_money` (
 DELETE FROM `log_money`;
 INSERT INTO `log_money` (`sender_acc`, `sender_guid`, `sender_name`, `sender_ip`, `receiver_acc`, `receiver_name`, `money`, `topic`, `date`, `type`) VALUES
 	(1, 9, 'Shadow', '172.18.0.1', 3, 'Ahbot', 9849042, 'profit: 943g, bidder: Shadow 60 lvl (guid: 9), seller: Ahbot 1 lvl (guid: 5), item 19019 (1)', '2024-04-25 21:21:16', 2),
-	(2, 10, 'Lama', '172.18.0.1', 3, 'Ahbot', 13495511, 'profit: 1297g, bidder: Lama 65 lvl (guid: 10), seller: Ahbot 1 lvl (guid: 5), item 19019 (1)', '2024-05-06 20:45:07', 2);
+	(2, 10, 'Lama', '172.18.0.1', 3, 'Ahbot', 13495511, 'profit: 1297g, bidder: Lama 65 lvl (guid: 10), seller: Ahbot 1 lvl (guid: 5), item 19019 (1)', '2024-05-06 20:45:07', 2),
+	(2, 11, 'Gpt', '172.18.0.1', 3, 'Ahbot', 8853855, 'profit: 856g, bidder: Gpt 63 lvl (guid: 11), seller: Ahbot 1 lvl (guid: 5), item 13262 (1)', '2024-05-23 18:42:56', 2);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

@@ -27,8 +27,9 @@ CREATE TABLE IF NOT EXISTS `realmcharacters` (
 DELETE FROM `realmcharacters`;
 INSERT INTO `realmcharacters` (`realmid`, `acctid`, `numchars`) VALUES
 	(1, 1, 7),
-	(1, 2, 3),
-	(1, 3, 1);
+	(1, 2, 4),
+	(1, 3, 1),
+	(1, 4, 2);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

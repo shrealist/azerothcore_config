@@ -42,9 +42,9 @@ DELETE FROM `groups`;
 INSERT INTO `groups` (`guid`, `leaderGuid`, `lootMethod`, `looterGuid`, `lootThreshold`, `icon1`, `icon2`, `icon3`, `icon4`, `icon5`, `icon6`, `icon7`, `icon8`, `groupType`, `difficulty`, `raidDifficulty`, `masterLooterGuid`) VALUES
 	(1, 1, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0),
 	(2, 9, 0, 9, 2, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0),
-	(3, 11, 0, 11, 2, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0),
 	(4, 6, 0, 6, 2, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0),
 	(5, 7, 0, 7, 2, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0),
+	(6, 11, 0, 11, 2, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0),
 	(9, 10, 0, 10, 2, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 1, 0);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;

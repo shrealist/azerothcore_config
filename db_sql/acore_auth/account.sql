@@ -42,14 +42,15 @@ CREATE TABLE IF NOT EXISTS `account` (
   `totaltime` int unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`),
   UNIQUE KEY `idx_username` (`username`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Account System';
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Account System';
 
 -- 正在导出表  acore_auth.account 的数据：~0 rows (大约)
 DELETE FROM `account`;
 INSERT INTO `account` (`id`, `username`, `salt`, `verifier`, `session_key`, `totp_secret`, `email`, `reg_mail`, `joindate`, `last_ip`, `last_attempt_ip`, `failed_logins`, `locked`, `lock_country`, `last_login`, `online`, `expansion`, `mutetime`, `mutereason`, `muteby`, `locale`, `os`, `recruiter`, `totaltime`) VALUES
 	(1, 'ZX1', _binary 0xcd476020defdbbe5e08d9dbedb4a54c32d0bb9fb5409082f07ee63c9bec4bf6c, _binary 0xcf5f297fe53d4ee841cf122fb5f5f56f379cd6f24b7721bd7742512a7315a342, _binary 0x071b9f5b1378717c0f6a65815c15f3e7a9bf1c5d8cea8dd5cc4f9b3eecda53c62703bd45f78462ad, NULL, '', '', '2024-03-02 17:31:44', '172.18.0.1', '172.18.0.1', 0, 0, '00', '2024-05-05 12:47:23', 0, 2, 0, '', '', 4, 'Win', 0, 939238),
-	(2, 'ZX2', _binary 0xe00866fc015259d1d56dfc85493b678167cb6aff37319900656141b6c8fbb315, _binary 0x5fd02f1fca4dd08009a1f95228923cadea02f7278962d075cadc8f89a101ff04, _binary 0x3b7b9596d5409a722c4b20227b695556049b8ac7ae53a0be65a0ba75956f6888acdf766174dc7ba3, NULL, '', '', '2024-03-03 16:11:38', '172.18.0.1', '172.18.0.1', 0, 0, '00', '2024-05-21 19:23:54', 1, 2, 0, '', '', 4, 'Win', 0, 235574),
-	(3, 'TRADER', _binary 0x3e6ef9a0be7ff5079731c80bde83586020c32ad476daa23c3f2c924662ae51ec, _binary 0xd4ac547475a72f282fba0d7e529cd8df9fecd23d06842839c231c8420ee5b554, _binary 0xeb6fa5061da066eba5b87b35dd22bd40bb669a9eb4a946b8e238f4c2523eda6199162d62733e1053, NULL, '', '', '2024-03-04 18:06:08', '172.28.0.1', '172.28.0.1', 0, 0, '00', '2024-03-04 18:06:29', 0, 2, 0, '', '', 4, 'Win', 0, 0);
+	(2, 'ZX2', _binary 0xe00866fc015259d1d56dfc85493b678167cb6aff37319900656141b6c8fbb315, _binary 0x5fd02f1fca4dd08009a1f95228923cadea02f7278962d075cadc8f89a101ff04, _binary 0x341e7e5c8ee2d9ac1b63b13058cc1feac1d21b598893a251fc62bcb99f04d0f891bef39932cfb1bf, NULL, '', '', '2024-03-03 16:11:38', '172.18.0.1', '172.18.0.1', 0, 0, '00', '2024-05-27 20:50:52', 0, 2, 0, '', '', 4, 'Win', 0, 297224),
+	(3, 'TRADER', _binary 0x3e6ef9a0be7ff5079731c80bde83586020c32ad476daa23c3f2c924662ae51ec, _binary 0xd4ac547475a72f282fba0d7e529cd8df9fecd23d06842839c231c8420ee5b554, _binary 0xeb6fa5061da066eba5b87b35dd22bd40bb669a9eb4a946b8e238f4c2523eda6199162d62733e1053, NULL, '', '', '2024-03-04 18:06:08', '172.28.0.1', '172.28.0.1', 0, 0, '00', '2024-03-04 18:06:29', 0, 2, 0, '', '', 4, 'Win', 0, 0),
+	(4, 'ZX3', _binary 0xe77d04972e18e1f238ee39d97a98fecccb3ca88a7afe793cb8b611f69f45a690, _binary 0x5de2f50460fe82c09b9746f165692612ce1af78dff2520038b39b3dbba04b731, _binary 0xd8a26925f1ce7399361ea26a32e785647c316d2f277867ebba8b039d37475e12bca3efcc27def865, NULL, '', '', '2024-05-27 20:34:14', '172.18.0.1', '172.18.0.1', 0, 0, '00', '2024-05-28 21:14:46', 0, 2, 0, '', '', 4, 'Win', 0, 10668);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

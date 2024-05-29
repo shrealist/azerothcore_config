@@ -27,9 +27,9 @@ CREATE TABLE IF NOT EXISTS `mail_items` (
 -- 正在导出表  acore_characters.mail_items 的数据：~3 rows (大约)
 DELETE FROM `mail_items`;
 INSERT INTO `mail_items` (`mail_id`, `item_guid`, `receiver`) VALUES
-	(54, 118934, 9),
 	(55, 119336, 9),
-	(61, 151806, 11);
+	(61, 151806, 11),
+	(71, 178281, 13);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

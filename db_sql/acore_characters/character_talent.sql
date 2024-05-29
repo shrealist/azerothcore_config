@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `character_talent` (
   PRIMARY KEY (`guid`,`spell`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_characters.character_talent 的数据：~215 rows (大约)
+-- 正在导出表  acore_characters.character_talent 的数据：~239 rows (大约)
 DELETE FROM `character_talent`;
 INSERT INTO `character_talent` (`guid`, `spell`, `specMask`) VALUES
 	(1, 12292, 1),
@@ -224,10 +224,13 @@ INSERT INTO `character_talent` (`guid`, `spell`, `specMask`) VALUES
 	(11, 20105, 1),
 	(11, 20113, 1),
 	(11, 20121, 1),
+	(11, 20261, 1),
+	(11, 20266, 1),
 	(11, 20332, 1),
 	(11, 20337, 1),
 	(11, 20375, 1),
 	(11, 25957, 1),
+	(11, 31821, 1),
 	(11, 31868, 1),
 	(11, 31869, 1),
 	(11, 31878, 1),
@@ -239,7 +242,28 @@ INSERT INTO `character_talent` (`guid`, `spell`, `specMask`) VALUES
 	(11, 53385, 1),
 	(11, 53488, 1),
 	(11, 53503, 1),
-	(11, 53648, 1);
+	(11, 53648, 1),
+	(13, 48982, 1),
+	(13, 49016, 1),
+	(13, 49027, 1),
+	(13, 49028, 1),
+	(13, 49189, 1),
+	(13, 49393, 1),
+	(13, 49395, 1),
+	(13, 49480, 1),
+	(13, 49491, 1),
+	(13, 49500, 1),
+	(13, 49504, 1),
+	(13, 49508, 1),
+	(13, 49530, 1),
+	(13, 49534, 1),
+	(13, 50029, 1),
+	(13, 50034, 1),
+	(13, 53138, 1),
+	(13, 55050, 1),
+	(13, 55108, 1),
+	(13, 55233, 1),
+	(13, 61158, 1);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

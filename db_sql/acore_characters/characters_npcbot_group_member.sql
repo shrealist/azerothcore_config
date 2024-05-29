@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `characters_npcbot_group_member` (
   PRIMARY KEY (`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
--- 正在导出表  acore_characters.characters_npcbot_group_member 的数据：~91 rows (大约)
+-- 正在导出表  acore_characters.characters_npcbot_group_member 的数据：~97 rows (大约)
 DELETE FROM `characters_npcbot_group_member`;
 INSERT INTO `characters_npcbot_group_member` (`guid`, `entry`, `memberFlags`, `subgroup`, `roles`) VALUES
 	(1, 70001, 0, 1, 0),
@@ -35,7 +35,7 @@ INSERT INTO `characters_npcbot_group_member` (`guid`, `entry`, `memberFlags`, `s
 	(9, 70008, 0, 2, 0),
 	(5, 70010, 0, 0, 0),
 	(5, 70011, 0, 0, 0),
-	(3, 70013, 0, 0, 0),
+	(6, 70013, 0, 0, 0),
 	(1, 70051, 0, 0, 0),
 	(4, 70052, 0, 2, 0),
 	(4, 70053, 0, 1, 0),
@@ -75,7 +75,7 @@ INSERT INTO `characters_npcbot_group_member` (`guid`, `entry`, `memberFlags`, `s
 	(9, 70215, 0, 0, 0),
 	(2, 70230, 0, 1, 0),
 	(1, 70236, 0, 0, 0),
-	(3, 70240, 0, 0, 0),
+	(6, 70240, 0, 0, 0),
 	(1, 70251, 0, 0, 0),
 	(4, 70252, 0, 2, 0),
 	(4, 70253, 0, 2, 0),
@@ -93,7 +93,7 @@ INSERT INTO `characters_npcbot_group_member` (`guid`, `entry`, `memberFlags`, `s
 	(5, 70306, 0, 3, 0),
 	(2, 70307, 0, 2, 0),
 	(2, 70313, 0, 1, 0),
-	(3, 70315, 0, 0, 0),
+	(6, 70315, 0, 0, 0),
 	(9, 70324, 0, 1, 0),
 	(9, 70325, 0, 1, 0),
 	(1, 70330, 0, 2, 0),
@@ -116,7 +116,7 @@ INSERT INTO `characters_npcbot_group_member` (`guid`, `entry`, `memberFlags`, `s
 	(2, 70408, 0, 2, 0),
 	(9, 70409, 0, 1, 0),
 	(9, 70410, 0, 2, 0),
-	(3, 70418, 0, 0, 0),
+	(6, 70418, 0, 0, 0),
 	(4, 70451, 0, 3, 0),
 	(1, 70452, 0, 2, 0),
 	(1, 70453, 0, 2, 0),

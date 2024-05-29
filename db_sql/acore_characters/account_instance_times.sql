@@ -27,7 +27,7 @@ DELETE FROM `account_instance_times`;
 INSERT INTO `account_instance_times` (`accountId`, `instanceId`, `releaseTime`) VALUES
 	(1, 4, 1714917781),
 	(1, 5, 1714917787),
-	(2, 3, 1716010259);
+	(2, 3, 1716794379);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `character_homebind` (
   PRIMARY KEY (`guid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Player System';
 
--- 正在导出表  acore_characters.character_homebind 的数据：~8 rows (大约)
+-- 正在导出表  acore_characters.character_homebind 的数据：~11 rows (大约)
 DELETE FROM `character_homebind`;
 INSERT INTO `character_homebind` (`guid`, `mapId`, `zoneId`, `posX`, `posY`, `posZ`, `posO`) VALUES
 	(1, 0, 2277, 3074.94, -3877.23, 131.126, 0),
@@ -38,7 +38,9 @@ INSERT INTO `character_homebind` (`guid`, `mapId`, `zoneId`, `posX`, `posY`, `po
 	(8, 0, 12, -8949.95, -132.493, 83.5312, 0),
 	(9, 1, 222, -2332.61, -365.956, -8.585, 0),
 	(10, 530, 3918, 1917.95, 5560.58, 262.922, 0),
-	(11, 1, 378, -2372.44, -1911.25, 95.7832, 0);
+	(11, 530, 3613, -1338.89, 7198.44, 33.8211, 0),
+	(13, 0, 4342, 2359.64, -5662.41, 382.261, 0.596899),
+	(14, 609, 4298, 2355.84, -5664.77, 426.028, 3.65997);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
