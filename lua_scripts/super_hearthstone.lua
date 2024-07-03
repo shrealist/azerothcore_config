@@ -959,6 +959,7 @@ local Menu={
         {ENC, "猫鼬",  2673, EQUIPMENT_SLOT_MAINHAND},
         {ENC, "攻击强度", 3827, EQUIPMENT_SLOT_MAINHAND},
         {ENC, "法术强度", 3854, EQUIPMENT_SLOT_MAINHAND},
+		{ENC, "dk堕落十字军", 3368, EQUIPMENT_SLOT_MAINHAND},
     },
     [ENCMENU+0xb0]={-- 副手
         {ENC, "清除副手武器附魔",-1,EQUIPMENT_SLOT_OFFHAND},
@@ -978,6 +979,7 @@ local Menu={
         {ENC, "猫鼬", 2673, EQUIPMENT_SLOT_OFFHAND},
         {ENC, "攻击强度", 3827, EQUIPMENT_SLOT_OFFHAND},
         {ENC, "法术强度", 3854, EQUIPMENT_SLOT_OFFHAND},
+		{ENC, "dk堕落十字军", 3368, EQUIPMENT_SLOT_OFFHAND},
     },
     [ENCMENU+0xe0]={-- 远程
         {ENC, "清除远程武器附魔",-1,EQUIPMENT_SLOT_RANGED},
@@ -1008,6 +1010,7 @@ local Menu={
         {ENC, "亡灵伤害", 3247, EQUIPMENT_SLOT_MAINHAND},
         {ENC, "巨人杀手", 3251, EQUIPMENT_SLOT_MAINHAND},
         {ENC, "法术强度", 3854, EQUIPMENT_SLOT_MAINHAND},
+		{ENC, "dk堕落十字军", 3368, EQUIPMENT_SLOT_MAINHAND},
     },
     [ENCMENU+0xd0]={-- 盾牌
         {ENC, "清除盾牌附魔",-1,EQUIPMENT_SLOT_OFFHAND},

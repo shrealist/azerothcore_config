@@ -164,5 +164,12 @@ print(E.Role)
 .learn 32678
 .learn 28695
 
+learn 20222
 脱离战斗
 .combatstop
+
+萨隆矿坑英雄模式尾王死了后无法继续补丁
+UPDATE `creature_template` SET `flags_extra` = `flags_extra` &~ 2147483648 WHERE `entry` IN (36658);
+
+carbonite小地图闪
+A temporary fix is listed in my original post, but... Go to Carbonite Options > Map Minimap and where it says "Minimap herb/ore dot glow delay" set it to 0 to turn it off, or a higher number to slow down the flashing. I think the default is 0.4.
