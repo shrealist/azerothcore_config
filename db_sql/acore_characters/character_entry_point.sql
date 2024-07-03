@@ -28,14 +28,15 @@ CREATE TABLE IF NOT EXISTS `character_entry_point` (
   PRIMARY KEY (`guid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Player System';
 
--- 正在导出表  acore_characters.character_entry_point 的数据：~5 rows (大约)
+-- 正在导出表  acore_characters.character_entry_point 的数据：~6 rows (大约)
 DELETE FROM `character_entry_point`;
 INSERT INTO `character_entry_point` (`guid`, `joinX`, `joinY`, `joinZ`, `joinO`, `joinMapId`, `taxiPath0`, `taxiPath1`, `mountSpell`) VALUES
 	(1, -8691.49, 317.509, 101.022, 3.06934, 0, 0, 0, 0),
 	(7, 1622.87, -4418.09, 14.8271, 4.37256, 1, 0, 0, 0),
 	(9, 1625.52, -4421.91, 15.1518, 3.05149, 1, 0, 0, 0),
 	(10, -1743.9, 5783.37, 146.44, 5.36332, 530, 0, 0, 0),
-	(11, 1627.26, -4423.08, 14.9867, 5.15716, 1, 0, 0, 0);
+	(11, 1627.26, -4423.08, 14.9867, 5.15716, 1, 0, 0, 0),
+	(13, 1631.65, -4423.89, 14.6218, 3.66729, 1, 0, 0, 0);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

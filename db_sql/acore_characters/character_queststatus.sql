@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `character_queststatus` (
   PRIMARY KEY (`guid`,`quest`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Player System';
 
--- 正在导出表  acore_characters.character_queststatus 的数据：~76 rows (大约)
+-- 正在导出表  acore_characters.character_queststatus 的数据：~82 rows (大约)
 DELETE FROM `character_queststatus`;
 INSERT INTO `character_queststatus` (`guid`, `quest`, `status`, `explored`, `timer`, `mobcount1`, `mobcount2`, `mobcount3`, `mobcount4`, `itemcount1`, `itemcount2`, `itemcount3`, `itemcount4`, `itemcount5`, `itemcount6`, `playercount`) VALUES
 	(1, 2744, 3, 0, 1709930337, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
@@ -112,7 +112,12 @@ INSERT INTO `character_queststatus` (`guid`, `quest`, `status`, `explored`, `tim
 	(11, 10450, 3, 0, 1716440654, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(11, 11039, 1, 0, 1716635927, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(11, 11216, 1, 0, 1716635927, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
-	(11, 11481, 1, 0, 1716738422, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+	(11, 11481, 1, 0, 1716738422, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+	(13, 12521, 1, 0, 1719040940, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+	(13, 12853, 1, 0, 1719040940, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+	(13, 12974, 1, 0, 1719040940, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+	(13, 13041, 3, 0, 1719919183, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+	(13, 13372, 1, 0, 1719905045, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

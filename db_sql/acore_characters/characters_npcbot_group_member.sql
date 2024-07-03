@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS `characters_npcbot_group_member` (
   PRIMARY KEY (`entry`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
--- 正在导出表  acore_characters.characters_npcbot_group_member 的数据：~97 rows (大约)
+-- 正在导出表  acore_characters.characters_npcbot_group_member 的数据：~103 rows (大约)
 DELETE FROM `characters_npcbot_group_member`;
 INSERT INTO `characters_npcbot_group_member` (`guid`, `entry`, `memberFlags`, `subgroup`, `roles`) VALUES
 	(1, 70001, 0, 1, 0),
@@ -35,7 +35,7 @@ INSERT INTO `characters_npcbot_group_member` (`guid`, `entry`, `memberFlags`, `s
 	(9, 70008, 0, 2, 0),
 	(5, 70010, 0, 0, 0),
 	(5, 70011, 0, 0, 0),
-	(6, 70013, 0, 0, 0),
+	(11, 70033, 0, 1, 0),
 	(1, 70051, 0, 0, 0),
 	(4, 70052, 0, 2, 0),
 	(4, 70053, 0, 1, 0),
@@ -46,6 +46,7 @@ INSERT INTO `characters_npcbot_group_member` (`guid`, `entry`, `memberFlags`, `s
 	(1, 70062, 0, 1, 0),
 	(5, 70063, 0, 3, 0),
 	(9, 70064, 0, 0, 0),
+	(11, 70065, 0, 0, 0),
 	(1, 70101, 0, 3, 0),
 	(4, 70102, 0, 3, 0),
 	(4, 70103, 0, 0, 0),
@@ -56,6 +57,7 @@ INSERT INTO `characters_npcbot_group_member` (`guid`, `entry`, `memberFlags`, `s
 	(2, 70109, 0, 1, 0),
 	(9, 70110, 0, 2, 0),
 	(9, 70111, 0, 2, 0),
+	(11, 70115, 0, 1, 0),
 	(1, 70151, 0, 3, 0),
 	(4, 70152, 0, 1, 0),
 	(1, 70153, 0, 2, 0),
@@ -64,6 +66,7 @@ INSERT INTO `characters_npcbot_group_member` (`guid`, `entry`, `memberFlags`, `s
 	(5, 70157, 0, 2, 0),
 	(2, 70158, 0, 3, 0),
 	(9, 70164, 0, 3, 0),
+	(11, 70165, 0, 1, 0),
 	(9, 70176, 0, 0, 0),
 	(4, 70201, 0, 1, 0),
 	(1, 70202, 0, 2, 0),
@@ -73,6 +76,7 @@ INSERT INTO `characters_npcbot_group_member` (`guid`, `entry`, `memberFlags`, `s
 	(5, 70211, 0, 2, 0),
 	(5, 70212, 0, 0, 0),
 	(9, 70215, 0, 0, 0),
+	(11, 70222, 0, 0, 0),
 	(2, 70230, 0, 1, 0),
 	(1, 70236, 0, 0, 0),
 	(6, 70240, 0, 0, 0),
@@ -86,6 +90,7 @@ INSERT INTO `characters_npcbot_group_member` (`guid`, `entry`, `memberFlags`, `s
 	(9, 70260, 0, 2, 0),
 	(1, 70265, 0, 3, 0),
 	(5, 70267, 0, 1, 0),
+	(11, 70268, 0, 1, 0),
 	(1, 70301, 0, 0, 0),
 	(4, 70302, 0, 3, 0),
 	(4, 70304, 0, 1, 0),
@@ -96,6 +101,7 @@ INSERT INTO `characters_npcbot_group_member` (`guid`, `entry`, `memberFlags`, `s
 	(6, 70315, 0, 0, 0),
 	(9, 70324, 0, 1, 0),
 	(9, 70325, 0, 1, 0),
+	(11, 70329, 0, 0, 0),
 	(1, 70330, 0, 2, 0),
 	(4, 70351, 0, 0, 0),
 	(1, 70352, 0, 1, 0),
@@ -106,6 +112,7 @@ INSERT INTO `characters_npcbot_group_member` (`guid`, `entry`, `memberFlags`, `s
 	(2, 70357, 0, 2, 0),
 	(9, 70358, 0, 3, 0),
 	(9, 70359, 0, 3, 0),
+	(11, 70373, 0, 0, 0),
 	(1, 70401, 0, 3, 0),
 	(4, 70402, 0, 3, 0),
 	(4, 70403, 0, 3, 0),
@@ -116,6 +123,7 @@ INSERT INTO `characters_npcbot_group_member` (`guid`, `entry`, `memberFlags`, `s
 	(2, 70408, 0, 2, 0),
 	(9, 70409, 0, 1, 0),
 	(9, 70410, 0, 2, 0),
+	(11, 70417, 0, 1, 0),
 	(6, 70418, 0, 0, 0),
 	(4, 70451, 0, 3, 0),
 	(1, 70452, 0, 2, 0),

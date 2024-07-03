@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `version` (
 -- 正在导出表  acore_world.version 的数据：~1 rows (大约)
 DELETE FROM `version`;
 INSERT INTO `version` (`core_version`, `core_revision`, `db_version`, `cache_id`) VALUES
-	('AzerothCore rev. 595a4c516fa7+ 2024-02-27 09:10:05 +0700 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)', '595a4c516fa7+', 'ACDB 335.11-dev', 11);
+	('AzerothCore rev. 5aa5776f6cd8+ 2024-06-20 20:19:40 +0800 (npcbots_3.3.5 branch) (Unix, RelWithDebInfo, Static)', '5aa5776f6cd8+', 'ACDB 335.11-dev', 11);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

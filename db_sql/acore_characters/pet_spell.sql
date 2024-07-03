@@ -28,7 +28,11 @@ INSERT INTO `pet_spell` (`guid`, `spell`, `active`) VALUES
 	(2, 47468, 129),
 	(2, 47481, 129),
 	(2, 47482, 129),
-	(2, 47484, 1);
+	(2, 47484, 1),
+	(4, 47468, 129),
+	(4, 47481, 129),
+	(4, 47482, 129),
+	(4, 47484, 1);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

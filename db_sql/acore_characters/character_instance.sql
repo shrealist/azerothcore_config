@@ -24,11 +24,10 @@ CREATE TABLE IF NOT EXISTS `character_instance` (
   KEY `instance` (`instance`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_characters.character_instance 的数据：~2 rows (大约)
+-- 正在导出表  acore_characters.character_instance 的数据：~1 rows (大约)
 DELETE FROM `character_instance`;
 INSERT INTO `character_instance` (`guid`, `instance`, `permanent`, `extended`) VALUES
-	(11, 2, 0, 0),
-	(11, 3, 0, 0);
+	(13, 18, 1, 0);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

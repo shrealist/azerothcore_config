@@ -24,12 +24,16 @@ CREATE TABLE IF NOT EXISTS `mail_items` (
   KEY `idx_mail_id` (`mail_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_characters.mail_items 的数据：~3 rows (大约)
+-- 正在导出表  acore_characters.mail_items 的数据：~2 rows (大约)
 DELETE FROM `mail_items`;
 INSERT INTO `mail_items` (`mail_id`, `item_guid`, `receiver`) VALUES
-	(55, 119336, 9),
-	(61, 151806, 11),
-	(71, 178281, 13);
+	(74, 206355, 13),
+	(75, 215556, 13),
+	(77, 220850, 13),
+	(80, 223071, 13),
+	(79, 226962, 13),
+	(81, 228273, 13),
+	(82, 239008, 13);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

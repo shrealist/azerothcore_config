@@ -41,7 +41,8 @@ CREATE TABLE IF NOT EXISTS `character_pet` (
 -- 正在导出表  acore_characters.character_pet 的数据：~1 rows (大约)
 DELETE FROM `character_pet`;
 INSERT INTO `character_pet` (`id`, `entry`, `owner`, `modelid`, `CreatedBySpell`, `PetType`, `level`, `exp`, `Reactstate`, `name`, `renamed`, `slot`, `curhealth`, `curmana`, `curhappiness`, `savetime`, `abdata`) VALUES
-	(2, 26125, 6, 24993, 52150, 0, 60, 0, 1, 'Bonegrinder', 1, 100, 5621, 1614, 0, 1711730350, '7 2 7 1 7 0 129 47482 1 47484 129 47481 129 47468 6 2 6 1 6 0 ');
+	(2, 26125, 6, 24993, 52150, 0, 60, 0, 1, 'Bonegrinder', 1, 100, 5621, 1614, 0, 1711730350, '7 2 7 1 7 0 129 47482 1 47484 129 47481 129 47468 6 2 6 1 6 0 '),
+	(4, 26125, 13, 24995, 52150, 0, 80, 0, 1, 'Casketrumbler', 1, 0, 26503, 4166, 0, 1719993103, '7 2 7 1 7 0 1 47484 129 47481 129 47468 129 47482 6 2 6 1 6 0 ');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

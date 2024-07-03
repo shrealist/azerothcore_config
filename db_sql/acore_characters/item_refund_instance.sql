@@ -36,7 +36,10 @@ INSERT INTO `item_refund_instance` (`item_guid`, `player_guid`, `paidMoney`, `pa
 	(147834, 10, 0, 1241),
 	(147835, 10, 0, 1218),
 	(147836, 10, 0, 1219),
-	(147837, 10, 0, 1209);
+	(147837, 10, 0, 1209),
+	(220851, 13, 0, 2525),
+	(239010, 13, 0, 2488),
+	(239011, 13, 0, 2487);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

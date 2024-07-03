@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `worldstates` (
 -- 正在导出表  acore_characters.worldstates 的数据：~144 rows (大约)
 DELETE FROM `worldstates`;
 INSERT INTO `worldstates` (`entry`, `value`, `comment`) VALUES
-	(1, 0, NULL),
+	(1, 1719319424, NULL),
 	(2, 0, NULL),
 	(3, 0, NULL),
 	(4, 0, NULL),
@@ -157,18 +157,18 @@ INSERT INTO `worldstates` (`entry`, `value`, `comment`) VALUES
 	(3771, 4, NULL),
 	(3772, 4, NULL),
 	(3773, 4, NULL),
-	(3781, 1870991, NULL),
-	(3801, 0, NULL),
+	(3781, 734883, NULL),
+	(3801, 1, NULL),
 	(3802, 1, NULL),
-	(4024, 692, NULL),
+	(4024, 969, NULL),
 	(20001, 1454691600, 'NextArenaPointDistributionTime'),
-	(20002, 1717048800, 'NextWeeklyQuestResetTime'),
-	(20003, 1717048800, 'NextBGRandomDailyResetTime'),
+	(20002, 1720072800, 'NextWeeklyQuestResetTime'),
+	(20003, 1720072800, 'NextBGRandomDailyResetTime'),
 	(20004, 0, 'cleaning_flags'),
-	(20005, 1717048800, 'NextDailyQuestResetTime'),
-	(20006, 1717048800, 'NextGuildDailyResetTime'),
-	(20007, 1717221600, 'NextMonthlyQuestResetTime'),
-	(20008, 1717048800, NULL);
+	(20005, 1720072800, 'NextDailyQuestResetTime'),
+	(20006, 1720072800, 'NextGuildDailyResetTime'),
+	(20007, 1722492000, 'NextMonthlyQuestResetTime'),
+	(20008, 1720072800, NULL);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
