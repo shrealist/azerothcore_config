@@ -4,10 +4,10 @@
 
 .npc set faction temp 15192
 
-docker cp /d/azerothcore_config/lua_scripts/ ac-client-data-init:/azerothcore/env/dist/data
-docker cp /d/spell\ editor\ 2/Spell.dbc ac-client-data-init:/azerothcore/env/dist/data/dbc/
-docker cp /d/azerothcore_config/worldserver.conf ac-worldserver:/azerothcore/env/dist/etc/
-docker cp /d/azerothcore_config/AutoBalance.conf ac-worldserver:/azerothcore/env/dist/etc/modules
+docker cp /mnt/d/azerothcore_config/lua_scripts/ ac-client-data-init:/azerothcore/env/dist/data
+docker cp /mnt/d/spell\ editor\ 2/Spell.dbc ac-client-data-init:/azerothcore/env/dist/data/dbc/
+docker cp /mnt/d/azerothcore_config/worldserver.conf ac-worldserver:/azerothcore/env/dist/etc/
+docker cp /mnt/d/azerothcore_config/AutoBalance.conf ac-worldserver:/azerothcore/env/dist/etc/modules
 
 http://www.rexuexia.com/thread-938-1-1.html
 https://www.mangosrumors.org/how-to-run-wow-32-bit-on-mac-os/
@@ -173,3 +173,9 @@ UPDATE `creature_template` SET `flags_extra` = `flags_extra` &~ 2147483648 WHERE
 
 carbonite小地图闪
 A temporary fix is listed in my original post, but... Go to Carbonite Options > Map Minimap and where it says "Minimap herb/ore dot glow delay" set it to 0 to turn it off, or a higher number to slow down the flashing. I think the default is 0.4.
+
+冠军试炼 老二的技能
+    SPELL_SMITE_N                       = 66536,
+    SPELL_SMITE_H                       = 67674,
+    SPELL_HOLY_FIRE_N                   = 66538,
+    SPELL_HOLY_FIRE_H                   = 67676,
