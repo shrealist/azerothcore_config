@@ -31,7 +31,8 @@ CREATE TABLE IF NOT EXISTS `instance` (
 -- 正在导出表  acore_characters.instance 的数据：~2 rows (大约)
 DELETE FROM `instance`;
 INSERT INTO `instance` (`id`, `map`, `resettime`, `difficulty`, `completedEncounters`, `data`) VALUES
-	(18, 533, 0, 0, 32767, '3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 0');
+	(1, 650, 0, 1, 7, 'T C 3 0 3 9'),
+	(2, 650, 1759736799, 0, 7, 'T C 3 0 3 9');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

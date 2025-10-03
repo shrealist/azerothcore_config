@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS `groups` (
   KEY `leaderGuid` (`leaderGuid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Groups';
 
--- 正在导出表  acore_characters.groups 的数据：~7 rows (大约)
+-- 正在导出表  acore_characters.groups 的数据：~8 rows (大约)
 DELETE FROM `groups`;
 INSERT INTO `groups` (`guid`, `leaderGuid`, `lootMethod`, `looterGuid`, `lootThreshold`, `icon1`, `icon2`, `icon3`, `icon4`, `icon5`, `icon6`, `icon7`, `icon8`, `groupType`, `difficulty`, `raidDifficulty`, `masterLooterGuid`) VALUES
 	(1, 1, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 2, 0),
@@ -46,6 +46,7 @@ INSERT INTO `groups` (`guid`, `leaderGuid`, `lootMethod`, `looterGuid`, `lootThr
 	(5, 7, 0, 7, 2, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0),
 	(6, 11, 0, 11, 2, 0, 0, 0, 0, 0, 0, 0, 0, 8, 0, 0, 0),
 	(9, 10, 0, 10, 2, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 1, 0),
+	(10, 17, 0, 17, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 	(11, 13, 0, 13, 2, 0, 0, 0, 0, 0, 0, 0, 0, 2, 1, 0, 0);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;

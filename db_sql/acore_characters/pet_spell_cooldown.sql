@@ -23,8 +23,10 @@ CREATE TABLE IF NOT EXISTS `pet_spell_cooldown` (
   PRIMARY KEY (`guid`,`spell`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_characters.pet_spell_cooldown 的数据：~0 rows (大约)
+-- 正在导出表  acore_characters.pet_spell_cooldown 的数据：~1 rows (大约)
 DELETE FROM `pet_spell_cooldown`;
+INSERT INTO `pet_spell_cooldown` (`guid`, `spell`, `category`, `time`) VALUES
+	(4, 20267, 0, 1720083534);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

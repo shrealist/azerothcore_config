@@ -34,7 +34,8 @@ INSERT INTO `character_settings` (`guid`, `source`, `data`) VALUES
 	(9, 'mod-individual-progression', '6 '),
 	(10, 'mod-individual-progression', '0 '),
 	(11, 'mod-individual-progression', '0 '),
-	(13, 'mod-individual-progression', '0 ');
+	(13, 'mod-individual-progression', '0 '),
+	(17, 'mod-individual-progression', '0 ');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

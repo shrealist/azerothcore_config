@@ -33,7 +33,7 @@ DELETE FROM `account_tutorial`;
 INSERT INTO `account_tutorial` (`accountId`, `tut0`, `tut1`, `tut2`, `tut3`, `tut4`, `tut5`, `tut6`, `tut7`) VALUES
 	(1, 4277714935, 134135807, 0, 0, 0, 0, 0, 0),
 	(2, 4294492151, 133574655, 0, 0, 0, 0, 0, 0),
-	(4, 4294492151, 134098943, 0, 0, 0, 0, 0, 0);
+	(4, 4294492151, 268320767, 0, 0, 0, 0, 0, 0);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

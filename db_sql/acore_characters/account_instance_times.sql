@@ -22,13 +22,14 @@ CREATE TABLE IF NOT EXISTS `account_instance_times` (
   PRIMARY KEY (`accountId`,`instanceId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 正在导出表  acore_characters.account_instance_times 的数据：~4 rows (大约)
+-- 正在导出表  acore_characters.account_instance_times 的数据：~5 rows (大约)
 DELETE FROM `account_instance_times`;
 INSERT INTO `account_instance_times` (`accountId`, `instanceId`, `releaseTime`) VALUES
 	(1, 4, 1714917781),
 	(1, 5, 1714917787),
 	(2, 3, 1716794379),
-	(4, 18, 1719905125);
+	(4, 1, 1759480447),
+	(4, 2, 1759481199);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

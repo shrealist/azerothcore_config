@@ -38,11 +38,14 @@ CREATE TABLE IF NOT EXISTS `character_pet` (
   KEY `idx_slot` (`slot`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='Pet System';
 
--- 正在导出表  acore_characters.character_pet 的数据：~1 rows (大约)
+-- 正在导出表  acore_characters.character_pet 的数据：~5 rows (大约)
 DELETE FROM `character_pet`;
 INSERT INTO `character_pet` (`id`, `entry`, `owner`, `modelid`, `CreatedBySpell`, `PetType`, `level`, `exp`, `Reactstate`, `name`, `renamed`, `slot`, `curhealth`, `curmana`, `curhappiness`, `savetime`, `abdata`) VALUES
 	(2, 26125, 6, 24993, 52150, 0, 60, 0, 1, 'Bonegrinder', 1, 100, 5621, 1614, 0, 1711730350, '7 2 7 1 7 0 129 47482 1 47484 129 47481 129 47468 6 2 6 1 6 0 '),
-	(4, 26125, 13, 24995, 52150, 0, 80, 0, 1, 'Casketrumbler', 1, 0, 26503, 4166, 0, 1719993103, '7 2 7 1 7 0 1 47484 129 47481 129 47468 129 47482 6 2 6 1 6 0 ');
+	(4, 26125, 13, 24995, 52150, 0, 80, 0, 1, 'Casketrumbler', 1, 100, 26513, 3176, 0, 1720083532, '7 2 7 1 7 0 1 47484 129 47481 129 47468 129 47482 6 2 6 1 6 0 '),
+	(7, 15651, 17, 15506, 13481, 1, 80, 0, 1, 'Cat', 0, 0, 12328, 1935, 960220, 1759479126, '7 2 7 1 7 0 193 61676 1 55709 129 53434 129 1742 6 2 6 1 6 0 '),
+	(10, 20751, 17, 19759, 13481, 1, 66, 0, 1, 'Raptor', 0, 2, 5726, 0, 810370, 1722973627, '7 2 7 1 7 0 129 53581 129 27049 129 14921 129 1742 6 2 6 1 6 0 '),
+	(12, 20749, 17, 20842, 13481, 1, 67, 0, 1, 'Wind Serpent', 0, 1, 5741, 0, 921975, 1723536814, '7 2 7 1 7 0 193 27050 193 25011 193 53517 129 1742 6 2 6 1 6 0 ');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

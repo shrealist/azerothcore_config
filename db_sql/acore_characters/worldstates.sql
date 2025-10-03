@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS `worldstates` (
 -- 正在导出表  acore_characters.worldstates 的数据：~144 rows (大约)
 DELETE FROM `worldstates`;
 INSERT INTO `worldstates` (`entry`, `value`, `comment`) VALUES
-	(1, 1719319424, NULL),
+	(1, 0, NULL),
 	(2, 0, NULL),
 	(3, 0, NULL),
 	(4, 0, NULL),
@@ -35,7 +35,7 @@ INSERT INTO `worldstates` (`entry`, `value`, `comment`) VALUES
 	(8, 0, NULL),
 	(9, 0, NULL),
 	(10, 0, NULL),
-	(11, 0, NULL),
+	(11, 1759474761, NULL),
 	(12, 0, NULL),
 	(13, 0, NULL),
 	(14, 0, NULL),
@@ -48,7 +48,7 @@ INSERT INTO `worldstates` (`entry`, `value`, `comment`) VALUES
 	(21, 0, NULL),
 	(22, 0, NULL),
 	(23, 0, NULL),
-	(24, 0, NULL),
+	(24, 1759474761, NULL),
 	(25, 0, NULL),
 	(26, 0, NULL),
 	(27, 0, NULL),
@@ -157,18 +157,18 @@ INSERT INTO `worldstates` (`entry`, `value`, `comment`) VALUES
 	(3771, 4, NULL),
 	(3772, 4, NULL),
 	(3773, 4, NULL),
-	(3781, 734883, NULL),
-	(3801, 1, NULL),
+	(3781, 3055840, NULL),
+	(3801, 0, NULL),
 	(3802, 1, NULL),
-	(4024, 969, NULL),
+	(4024, 3107, NULL),
 	(20001, 1454691600, 'NextArenaPointDistributionTime'),
-	(20002, 1720072800, 'NextWeeklyQuestResetTime'),
-	(20003, 1720072800, 'NextBGRandomDailyResetTime'),
+	(20002, 1759989600, 'NextWeeklyQuestResetTime'),
+	(20003, 1759557600, 'NextBGRandomDailyResetTime'),
 	(20004, 0, 'cleaning_flags'),
-	(20005, 1720072800, 'NextDailyQuestResetTime'),
-	(20006, 1720072800, 'NextGuildDailyResetTime'),
-	(20007, 1722492000, 'NextMonthlyQuestResetTime'),
-	(20008, 1720072800, NULL);
+	(20005, 1759557600, 'NextDailyQuestResetTime'),
+	(20006, 1759557600, 'NextGuildDailyResetTime'),
+	(20007, 1761976800, 'NextMonthlyQuestResetTime'),
+	(20008, 1759557600, NULL);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
