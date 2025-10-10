@@ -4,10 +4,14 @@
 
 .npc set faction temp 15192
 
+docker exec -it ac-worldserver bash
+
 docker cp /mnt/d/azerothcore_config/lua_scripts/ ac-client-data-init:/azerothcore/env/dist/data
 docker cp /mnt/d/spell\ editor\ 2/Spell.dbc ac-client-data-init:/azerothcore/env/dist/data/dbc/
 docker cp /mnt/d/azerothcore_config/worldserver.conf ac-worldserver:/azerothcore/env/dist/etc/
 docker cp /mnt/d/azerothcore_config/AutoBalance.conf ac-worldserver:/azerothcore/env/dist/etc/modules
+
+docker cp /mnt/d/release/. ac-worldserver:/azerothcore/env/dist/bin/
 
 http://www.rexuexia.com/thread-938-1-1.html
 https://www.mangosrumors.org/how-to-run-wow-32-bit-on-mac-os/
