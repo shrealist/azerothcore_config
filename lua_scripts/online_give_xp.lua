@@ -76,5 +76,5 @@ RegisterPlayerEvent(14, OnMoneyChange)
 --RegisterPlayerEvent(51, OnQuestRewardItem)
 
 -- LOGIN
-RegisterPlayerEvent(3, OnPlayerLogin)
-RegisterPlayerEvent(4, OnPlayerLogout)
+--RegisterPlayerEvent(3, OnPlayerLogin)
+--RegisterPlayerEvent(4, OnPlayerLogout)
